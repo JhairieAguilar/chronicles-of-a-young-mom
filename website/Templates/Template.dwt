@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="OptionalRegion1" type="boolean" value="false" -->
+</head>
+
+<body>
+<h1>Chronicles Of A Young Mom
+</h1>
+<p><a href="../home-page/">Home Page </a></p>
+<ul>
+  <li><a href="../recipes/">Recipes</a>
+  </li>
+  <!-- TemplateBeginIf cond="OptionalRegion1" -->
+  <li><a href="../recipes/awesome-applesauce.html">Awesome Applesauce</a></li>
+  <li><a href="../recipes/chic-penne.html">Chic' Penne</a></li>
+  <li><a href="../recipes/perfect-pineapple-pops.html">Perfect Pineapple Pops</a></li>
+  <li><a href="../recipes/sweet-potato-and-black-bean-salad.html">Sweet Potato and Black Bean Salad </a></li>
+  <li><a href="../recipes/baked-chicken-nuggets.html">Baked Chicken Nuggets</a></li>
+  <!-- TemplateEndIf -->
+  <li> </li>
+  <li><a href="../blog/">Blog </a></li>
+  <li><a href="../photography/">Photography</a></li>
+</ul>
+<!-- TemplateBeginEditable name="EditRegion3" -->EditRegion3<!-- TemplateEndEditable -->
+</body>
+</html>
