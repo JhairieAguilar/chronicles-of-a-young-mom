@@ -8,24 +8,76 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <!-- TemplateParam name="OptionalRegion1" type="boolean" value="false" -->
+<!-- TemplateParam name="OptionalRegion2" type="boolean" value="false" -->
+<!-- TemplateParam name="OptionalRegion3" type="boolean" value="false" -->
+<!-- TemplateParam name="OptionalRegion4" type="boolean" value="false" -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="OptionalRegion5" type="boolean" value="false" -->
 </head>
 
 <body>
+<div class="wrapper">
+    	<div class="naviagtion">
+    	</div>
+        <div class="content">
+        </div>
+        <div class="footer">
+        </div>
+	</div>
 <h1>Chronicles Of A Young Mom
 </h1>
 <p><a href="../home-page/">Home Page </a></p>
 <ul>
-  <li><a href="../recipes/">Recipes</a>
-  </li>
+  <li><a href="../recipes-for-kids/index.html">Recipes
+  For Kids</a></li>
   <!-- TemplateBeginIf cond="OptionalRegion1" -->
-  <li><a href="../recipes/awesome-applesauce.html">Awesome Applesauce</a></li>
-  <li><a href="../recipes/chic-penne.html">Chic' Penne</a></li>
-  <li><a href="../recipes/perfect-pineapple-pops.html">Perfect Pineapple Pops</a></li>
-  <li><a href="../recipes/sweet-potato-and-black-bean-salad.html">Sweet Potato and Black Bean Salad </a></li>
-  <li><a href="../recipes/baked-chicken-nuggets.html">Baked Chicken Nuggets</a></li>
+  <ul>
+    <li><a href="../recipes-for-kids/awesome-applesauce.html">Awesome Applesauce</a></li>
+    <li><a href="../recipes-for-kids/chic-penne.html">Chic' Penne</a>
+    </li>
+    <li><a href="../recipes-for-kids/perfect-pineapple-pops.html">Perfect Pineapple Pops</a>
+    </li>
+  
+    <li><a href="../recipes-for-kids/sweet-potato-and-black-bean-salad.html">Sweet Potato and Black Bean Salad </a></li>
+    <li><a href="../recipes-for-kids/baked-chicken-nuggets.html">Baked Chicken Nuggets</a>  </li>
+  </ul>
   <!-- TemplateEndIf -->
-  <li> </li>
-  <li><a href="../blog/">Blog </a></li>
+  <li><a href="../busy-mom-recipes/">Busy Mom Recipes</a>  </li>
+  <!-- TemplateBeginIf cond="OptionalRegion4" -->
+  <ul>
+    <li><a href="../busy-mom-recipes/penne-and-chicken.html">Penne and Chicken with Spiced Tomato Sauce</a></li>
+    <li><a href="../busy-mom-recipes/grilled-pbj.html">Grilled Peanut Butter and Jelly Sandwitch</a></li>
+    <li><a href="../busy-mom-recipes/meatless-italian.html">Meatless Italian Macaroni Bake </a></li>
+    <li><a href="../busy-mom-recipes/salmon-with-mustard.html">Salmon with Mustard Sauce </a></li>
+    <li><a href="../busy-mom-recipes/latte-rice-krispies.html">Latte Rice Krispies Treats </a></li>
+  </ul>
+  <!-- TemplateEndIf -->
+  <li><a href="../activities /">Activities </a> 
+  </li>
+  <!-- TemplateBeginIf cond="OptionalRegion2" -->
+  <ul>
+    <li><a href="../activities /in-door.html">In-Door</a></li>
+    <li><a href="../activities /out-door.html">Out-Door</a>  </li>
+  </ul>
+  <!-- TemplateEndIf -->
+  <li><a href="../about-me/">About Me</a></li>
+  <!-- TemplateBeginIf cond="OptionalRegion5" -->
+  <ul>
+    <li><a href="../about-me/biography.html">Biography </a></li>
+    <li><a href="../about-me/my-past.html">My Past </a></li>
+    <li><a href="../about-me/my-present.html">My Present</a></li>
+    <li><a href="../about-me/my-future.html">My Future</a></li>
+  </ul>
+  <!-- TemplateEndIf -->
+  <li><a href="../blog/">Blog</a></li>
+  <!-- TemplateBeginIf cond="OptionalRegion3" -->
+  <ul>
+    <li> <a href="../blog/pros-and-cons.html">The Pros and Cons of Being a Young Mom</a></li>
+    <li><a href="../blog/getting-married-young.html">The Benefits of Getting Married Young</a></li>
+    <li><a href="../blog/health-tips.html">Health Tips for New Moms </a></li>
+    <li><a href="../blog/tips-for-staying-fit.html">Tips for Staying Fit </a></li>
+  </ul>
+  <!-- TemplateEndIf -->
   <li><a href="../photography/">Photography</a></li>
 </ul>
 <!-- TemplateBeginEditable name="EditRegion3" -->EditRegion3<!-- TemplateEndEditable -->
