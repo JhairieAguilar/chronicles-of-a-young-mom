@@ -13,11 +13,12 @@
 <!-- TemplateParam name="OptionalRegion4" type="boolean" value="false" -->
 <link href="../styles.css" rel="stylesheet" type="text/css">
 <!-- TemplateParam name="OptionalRegion5" type="boolean" value="false" -->
+<!-- TemplateParam name="OptionalRegion6" type="boolean" value="false" -->
 </head>
 
 <body>
 <div class="wrapper">
-    	<div class="naviagtion">
+    	<div class="navigation">
     	</div>
         <div class="content">
         </div>
@@ -28,8 +29,9 @@
 </h1>
 <p><a href="../home-page/">Home Page </a></p>
 <ul>
+  <li><a href="../about-me/">About Me</a></li>
   <li><a href="../recipes-for-kids/index.html">Recipes
-  For Kids</a></li>
+    For Kids</a></li>
   <!-- TemplateBeginIf cond="OptionalRegion1" -->
   <ul>
     <li><a href="../recipes-for-kids/awesome-applesauce.html">Awesome Applesauce</a></li>
@@ -52,34 +54,43 @@
     <li><a href="../busy-mom-recipes/latte-rice-krispies.html">Latte Rice Krispies Treats </a></li>
   </ul>
   <!-- TemplateEndIf -->
-  <li><a href="../activities /">Activities </a> 
-  </li>
+  <li><a href="../arts-and-crafts/">Arts &amp; Crafts </a></li>
+  <!-- TemplateBeginIf cond="OptionalRegion6" -->
+  <ul>
+    <li><a href="../arts-and-crafts/finger-painting.html">Finger Painting</a></li>
+    <li><a href="../arts-and-crafts/colored-playdough.html">Colored Playdough</a></li>
+    <li><a href="../arts-and-crafts/egg-carton-turtle.html">Egg Carton Turtle </a></li>
+    <li><a href="../arts-and-crafts/tin-can-planter-pals.html">Tin Can Planter Pals</a></li>
+    <li><a href="../arts-and-crafts/sponge-printing.html">Sponge Printing</a></li>
+  </ul>
+  <!-- TemplateEndIf -->
+  <li><a href="../activities /">Activities </a></li>
   <!-- TemplateBeginIf cond="OptionalRegion2" -->
   <ul>
+    <li><a href="../activities /playspaces.html">Playspaces </a></li>
     <li><a href="../activities /in-door.html">In-Door</a></li>
-    <li><a href="../activities /out-door.html">Out-Door</a>  </li>
+    <li><a href="../activities /out-door.html">Out-Door</a></li>
+    <li><a href="../activities /recreation-centers.html">Recreation Centers</a></li>
+    <li><a href="../activities /kids-in-motion.html">Kids in Motion </a></li>
   </ul>
   <!-- TemplateEndIf -->
-  <li><a href="../about-me/">About Me</a></li>
-  <!-- TemplateBeginIf cond="OptionalRegion5" -->
-  <ul>
-    <li><a href="../about-me/biography.html">Biography </a></li>
-    <li><a href="../about-me/my-past.html">My Past </a></li>
-    <li><a href="../about-me/my-present.html">My Present</a></li>
-    <li><a href="../about-me/my-future.html">My Future</a></li>
-  </ul>
-  <!-- TemplateEndIf -->
-  <li><a href="../blog/">Blog</a></li>
+  <li><a href="../blog/">Blog</a>
+  </li>
+</ul>
+<ul>
   <!-- TemplateBeginIf cond="OptionalRegion3" -->
+  <!-- TemplateEndIf --><!-- TemplateBeginIf cond="OptionalRegion3" -->
   <ul>
     <li> <a href="../blog/pros-and-cons.html">The Pros and Cons of Being a Young Mom</a></li>
     <li><a href="../blog/getting-married-young.html">The Benefits of Getting Married Young</a></li>
-    <li><a href="../blog/health-tips.html">Health Tips for New Moms </a></li>
+    <li><a href="../blog/keep-romance-alive.html">Ways to Keep the Romance Alive</a><br>
+    </li>
     <li><a href="../blog/tips-for-staying-fit.html">Tips for Staying Fit </a></li>
+    <li><a href="../blog/advice-for-college-students.html">Advice for College Students </a></li>
   </ul>
   <!-- TemplateEndIf -->
-  <li><a href="../photography/">Photography</a></li>
 </ul>
+<p>&nbsp;</p>
 <!-- TemplateBeginEditable name="EditRegion3" -->EditRegion3<!-- TemplateEndEditable -->
 </body>
 </html>
